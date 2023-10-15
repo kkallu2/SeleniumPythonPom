@@ -8,13 +8,10 @@ Thank you guys for forking and giving stars for this project. I appreciate it a 
 
 # Test Automation Project
 
-This is my first test automation project based on Selenium-Webdriver with Python. It's still developing package of automated tests of [phptravels.net](https://phptravels.net) demo website.
+This is my first test automation project based on Selenium-Webdriver with Python. It's still developing package of automated tests of [http://www.demoblaze.com](http://www.demoblaze.com) demo website.
 The collection of tests contains:
 - user login tests (correct / incorrect login and password)
-- hotels search tests
-- flights search tests
-- tours search tests
-- transfers search tests
+
 
 ## Project Structure
 Here you can find a short description of main directories and it's content
@@ -22,7 +19,7 @@ Here you can find a short description of main directories and it's content
 - [pages](pages) - there are sets of method for each test step (notice: some repeated methods were moved to [functions.py](utils/functions.py))
 - [tests](tests) - there are sets of tests for main functionalities of website
 - [reports](reports) - if you run tests with Allure, tests reports will be saved in this directory
-- [utils](utils) - this directory contains files responsible for configuration, e.g. driver_factory.py for webdriver management or [read_xlsx.py](utils/read_xlsx.py) for reading input data from xlsx files included in project
+- [utils](utils) - this directory contains files responsible for configuration, e.g. driver_factory.py for webdriver management 
 
 ## Project Features
 - framework follows page object pattern
